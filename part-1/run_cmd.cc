@@ -21,8 +21,8 @@ using namespace std;
 /// \returns the string \p s repeated \p n_repeat times
 string BigString(int n_repeat, const string& s) {
   string x = s;
-  for (int i = 0; i < n_repeat; i++){
-    x += s; 
+  for (int i = 0; i < n_repeat; i++) {
+    x += s;
   }
   return x;
 }
@@ -43,7 +43,7 @@ int main(int argc, char const* argv[]) {
   string base_str = string(argv[2]);
   int rv = 0;
   int n_repeat = 0;
-  do{
+  do {
     string repeated = BigString(n_repeat, base_str);
     n_repeat++;
     // Concatenate the command and the repeated string as a
@@ -57,6 +57,6 @@ int main(int argc, char const* argv[]) {
     cout << endl << repeated;
     rv = system(cmd.c_str());
     cout << "Exited with status " << rv << "\n";
-  }while(rv == 0);
+  } while (rv == 0);
   return 0;
 }
