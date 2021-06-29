@@ -1,3 +1,13 @@
+// Raphael S. Andaya
+// CPSC 353-01
+// 2021-06-25
+// raphyand@csu.fullerton.edu
+// @raphyand
+//
+// Assignment 02
+//
+// Overflow file to analyze buffer and manipulate result of buffer overflow.
+//
 #include <cstring>
 #include <iostream>
 

@@ -1,4 +1,13 @@
-
+// Raphael S. Andaya
+// CPSC 353-01
+// 2021-06-25
+// raphyand@csu.fullerton.edu
+// @raphyand
+//
+// Assignment 02
+//
+// Run_cmd file concatenate strings until segmentation fault
+//
 #include <cstdlib>
 #include <iostream>
 #include <string>
@@ -16,7 +25,6 @@ string BigString(int n_repeat, const string& s) {
     x += s; 
   }
   return x;
-  // return string("foo");
 }
 
 // ./run_cmd ./overflow whatever_string_to_use
